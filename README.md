@@ -13,4 +13,4 @@ I use Ubuntu Linux 19.10, so it was not tested on Windows nor MacOS.
 2. On a bash console, import the environment variables: **source /opt/intel/openvino/bin/setupvars.sh**
 3. Run: **python3 app.py -i pathToPhotoImage.jpg**
 3.1. Optionally, pass -d argument to change the target device (CPU, GPU, etc).
-
+3.2. It should output the Age and Gender "detected" by the model.
